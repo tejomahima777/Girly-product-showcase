@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive cosmetics website design tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#home" class="logo"> <img src="images/logo.png" alt=""> </a>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<!-- navbar section  -->
+
+<nav class="navbar">
+    <div id="close-navbar" class="fas fa-times"></div>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#team">Team</a>
+    <a href="#arrivals">Arrivals</a>
+    <a href="#blogs">Blogs</a>
+</nav>
+
+<!-- navbar section  -->
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="slide active">
+        <div class="content">
+            <img src="images/content-img-1.png" alt="">
+            <span>New arrivals 2025</span>
+            <h3>Cosmetics</h3>
+            <a href="#" class="btn">Read more</a>
+            <div class="controls">
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="images/home-img-1.png" alt="">
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="content">
+            <img src="images/content-img-2.png" alt="">
+            <span>New arrivals 2025</span>
+            <h3>Accessories</h3>
+            <a href="#" class="btn">Read more</a>
+            <div class="controls">
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="images/home-img-2.png" alt="">
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="content">
+            <img src="images/content-img-3.png" alt="">
+            <span>New collections</span>
+            <h3>Skin care</h3>
+            <a href="#" class="btn">Read more</a>
+            <div class="controls">
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="images/home-img-3.png" alt="">
+        </div>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- category section starts  -->
+
+<section class="category">
+
+    <a href="#" class="box">
+        <img src="images/category-1.png" alt="">
+        <p>Cosmetics</p>
+    </a>
+
+    <a href="#" class="box">
+        <img src="images/category-2.png" alt="">
+        <p>Makeup</p>
+    </a>
+
+    <a href="#" class="box">
+        <img src="images/category-3.png" alt="">
+        <p>Powder</p>
+    </a>
+
+    <a href="#" class="box">
+        <img src="images/category-4.png" alt="">
+        <p>Lotions</p>
+    </a>
+
+    <a href="#" class="box">
+        <img src="images/category-5.png" alt="">
+        <p>Lipstick</p>
+    </a>
+
+    <a href="#" class="box">
+        <img src="images/category-6.png" alt="">
+        <p>Mascara</p>
+    </a>
+
+</section>
+
+<!-- category section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="content">
+        <span>why choose us?</span>
+        <h3>Makeup makes difference!!</h3>
+        <p>Our Girly is simple, responsive, and user-friendly, making it easy for customers to explore products anytime, anywhere. With a clean design, smooth navigation, and engaging product displays, we provide small businesses an affordable way to showcase their collections online.</p>
+        <a href="#" class="btn">Read more</a>
+    </div>
+    
+</section>
+
+<!-- about section ends -->
+
+<!-- shop section starts  -->
+
+<section class="shop" id="shop">
+
+    <div class="heading">
+        <h1>Featured Products</h1>
+        <p>Explore our featured collection of must-have cosmetics everyone is talking about.</p>
+    </div>
+
+    <div class="swiper products-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-25%</span>
+                    <img src="https://aqualogica.in/cdn/shop/products/hydrate_-refresh-toning-mist-02.jpg?v=1701692124&width=1445" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Aquaogica-hydrate+ Toner (100ml)</p>
+                    <div class="price">Rs.249 <span>Rs.499</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-5%</span>
+                    <img src="https://media6.ppl-media.com//tr:h-235,w-235,c-at_max,dpr-2,q-40/static/img/product/371366/mars-plush-velvet-lipstick-16-dark-magic-3-2g_1_display_1718373217_a641c3e8.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Mars 16-Dark Magic Lipstick (3.2g)</p>
+                    <div class="price">Rs.189 <span>Rs.199</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-24%</span>
+                    <img src="https://www.goodvibesonly.in/cdn/shop/files/8_701db037-b3a5-4226-b9eb-02108494ec1f_720x.jpg?v=1688131250" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Good vibes-Ubtan Powder (50g)</p>
+                    <div class="price">Rs.220 <span>Rs.290</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-15%</span>
+                    <img src="https://images.mamaearth.in/catalog/product/a/l/aloe-ashwagndha-gel.jpg?format=auto&height=600" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>mamaearth aloe-gel (300ml)</p>
+                    <div class="price">Rs.297 <span>Rs.349</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-46%</span>
+                    <img src="https://images-static.nykaa.com/media/catalog/product/0/0/0060d70LAK-new_8901030366727-new_1.jpg?tr=w-500" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Lakme Compact+Foundation(9g)</p>
+                    <div class="price">Rs.539 <span>Rs.999</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-10%</span>
+                    <img src="https://marscosmetics.in/cdn/shop/products/fabulash-mascara-607.jpg?v=1638452787" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Mars smudge&water proof Mascara (12ml)</p>
+                    <div class="price">Rs.229 <span>Rs.299</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-15%</span>
+                    <img src="https://www.dotandkey.com/cdn/shop/files/1_262025d4-8a3e-4d7e-8e45-a5d4d979c758.jpg?v=1744370218" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Dot&Key Pomegranate Moisturizer (60ml)</p>
+                    <div class="price">Rs.595 <span>Rs.695</span></div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <span class="discount">-20%</span>
+                    <img src="https://m.media-amazon.com/images/I/61ACtF1fouL.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Aqualogica Glow+ Dewy Sunscreen (50g)</p>
+                    <div class="price">Rs.358 <span>Rs.449</span></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- shop section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <div class="heading">
+        <h1>Our gallery</h1>
+        <p>See how our products bring out the glow in every moment, so discover our collection of stunning beauty looks and products...</p>
+    </div>
+
+    <div class="lightbox">
+        <a href="images/img-1.jpg"><img src="images/img-1.jpg" alt=""></a>
+        <a href="images/img-2.jpg"><img src="images/img-2.jpg" alt=""></a>
+        <a href="images/img-3.jpg"><img src="images/img-3.jpg" alt=""></a>
+        <a href="images/img-4.jpg"><img src="images/img-4.jpg" alt=""></a>
+        <a href="images/img-5.jpg"><img src="images/img-5.jpg" alt=""></a>
+        <a href="images/img-6.jpg"><img src="images/img-6.jpg" alt=""></a>
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- team section starts  -->
+
+<section class="team" id="team">
+
+    <div class="heading">
+        <h1>Our team</h1>
+        <p>Our Girly team is a group of passionate and creative minds dedicated to delivering the best beauty experience. With skill, care, and innovation, we work together to bring quality products that you can trust.</p>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="https://theglitz.media/wp-content/uploads/2024/03/Namrata-Soni-Profile-Image-scaled.jpg" alt="">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Namrata Soni</h3>
+                <p>Make-up Artist</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://img.freepik.com/free-photo/portrait-smiling-beautiful-brunette-woman-cute-dress-red-lips-flowers-background-concept-professional-photossesion-modern-greenhouse_7502-8441.jpg?w=360" alt="">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Meenakshi</h3>
+                <p>Make-up Artist</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://socioinfluencer.com/wp-content/uploads/2023/12/Layer-3.jpg" alt="">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Pavitra Raj</h3>
+                <p>Make-up Artist</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- team section ends -->
+
+<!-- arrivals section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <div class="heading">
+        <h1>New arrivals</h1>
+        <p>Explore our newest arrivals and give your beauty routine an exciting update!!</p>
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Pink Lip Gloss</p>
+                    <div class="price">Rs.199 <span>Rs.249</span></div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Style Mary Fare Mascara</p>
+                    <div class="price">Rs.159 <span>Rs.199</span></div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Neutrogena gels combo</p>
+                    <div class="price">Rs.699 <span>Rs.999</span></div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Swiss Beauty Lipstick</p>
+                    <div class="price">Rs.399 <span>Rs.459</span></div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Ladies Perfume</p>
+                    <div class="price">Rs.499 <span></span></div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Bronson brush combo</p>
+                    <div class="price">Rs.200 <span>Rs.300</span></div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Olay inst glow combo</p>
+                    <div class="price">Rs.599 <span>Rs.899</span></div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/arrival-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p>Swiss Beauty compact brush</p>
+                    <div class="price">Rs.261 <span>Rs.299</span></div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+    
+</section>
+
+<!-- arrivals section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews">
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img src="https://img.freepik.com/free-photo/portrait-smiling-indian-person-posing-front-camera_482257-122324.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+                    <div class="info">
+                        <h3>Sanya</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text">I absolutely love this website! The design is so clean and elegant, making it easy to browse through all the products. The product images are clear, and the descriptions give me all the information I need. Shopping here feels effortless and enjoyable.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img src="https://img.freepik.com/premium-photo/indian-girl-cheerful-studio-portrait_53876-55599.jpg" alt="">
+                    <div class="info">
+                        <h3>Ishitha</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text">The website is very user-friendly and loads quickly, even on my phone. I really appreciate the filters and categories—it makes finding the right products so simple. The daily blog section is a nice bonus, giving me useful skincare tips while I shop.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img src="https://as2.ftcdn.net/jpg/01/34/87/59/1000_F_134875961_8odtbDofzxum7RKlkt0Zk4nIVoYfwXCv.jpg" alt="">
+                    <div class="info">
+                        <h3>Ananya</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text">I feel confident shopping here because the secure payment options are clearly displayed, and the product reviews help me choose wisely. The overall layout is attractive and professional, making me want to come back again and again for my cosmetics needs.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img src="https://www.mxmindia.com/wp-content/uploads/2012/08/Aditi-passport.jpg" alt="">
+                    <div class="info">
+                        <h3>Naina Choudhary</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text">This website makes online shopping so convenient! I love how easy it is to find products by category, and the quick previews of items save me a lot of time. The overall experience is smooth and visually appealing.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img src="https://images.pexels.com/photos/802457/pexels-photo-802457.jpeg?cs=srgb&dl=pexels-dzeninalukac-802457.jpg&fm=jpg" alt="">
+                    <div class="info">
+                        <h3>Riya Iyer</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text">The product details and images are excellent, and I really like the 'Best Sellers' section—it helped me discover new favorites. The website feels modern and trustworthy, which makes me confident in every purchase.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img src="https://i.pinimg.com/236x/f2/cd/a1/f2cda1e4b115aee220100633190fa9d8.jpg" alt="">
+                    <div class="info">
+                        <h3>Meera Sai</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text">I enjoy browsing this site because it’s so well-organized and easy to navigate. The filters and search options are very helpful, and the overall design is beautiful and elegant. Shopping here is a pleasure every time.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- reviews section ends  -->
+
+<!-- service section starts  -->
+
+<section class="service">
+
+    <div class="box">
+        <img src="images/service-1.png" alt="">
+        <h3>Free shipping</h3>
+        <p>Enjoy fast and free delivery on all your favorite beauty products.</p>
+    </div>
+
+    <div class="box">
+        <img src="images/service-2.png" alt="">
+        <h3>Secure payment</h3>
+        <p>Shop confidently with safe and reliable payment options.</p>
+    </div>
+
+    <div class="box">
+        <img src="images/service-3.png" alt="">
+        <h3>24/7 support</h3>
+        <p>Our team is here anytime to assist with your beauty needs.</p>
+    </div>
+
+</section>
+
+<!-- service section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <div class="heading">
+        <h1>Our daily blogs</h1>
+        <p>Stay updated with the latest beauty trends, makeup hacks, and skincare tips. Our blogs are designed to inspire and guide you in achieving your perfect look every day.</p>
+    </div>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/img-1.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        <a href="#"> <i class="fas fa-clock"></i> 21st may, 2025 </a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Everyday Natural Makeup Look</h3>
+                    <p>Learn simple steps to achieve a fresh and natural look for daily wear.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/img-2.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        <a href="#"> <i class="fas fa-clock"></i> 21st may, 2025 </a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Bold Eye Makeup Ideas</h3>
+                    <p>Stand out with dramatic eyeliner and colorful eyeshadow inspiration.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/img-3.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        <a href="#"> <i class="fas fa-clock"></i> 21st may, 2025 </a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Top Lipstick Shades for All Skin Tones</h3>
+                    <p>Discover universally flattering shades that enhance your beauty.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/img-4.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        <a href="#"> <i class="fas fa-clock"></i> 21st may, 2025 </a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Quick Makeup Hacks for Busy Mornings</h3>
+                    <p>Time-saving tricks to get ready in just a few minutes.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/img-5.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        <a href="#"> <i class="fas fa-clock"></i> 21st may, 2025 </a>
+                    </div>
+                </div>
+                <div class="content">
+                   <h3>Bridal Makeup Trends 2025</h3>
+                    <p>Latest bridal looks combining tradition with modern styles.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/img-6.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        <a href="#"> <i class="fas fa-clock"></i> 21st may, 2025 </a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Skincare Tips Before Makeup</h3>
+                    <p>Essential skincare routine for smooth, glowing, and long-lasting makeup.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a class="link" href="#home"> <i class="fas fa-angle-right"></i> Home</a>
+            <a class="link" href="#shop"> <i class="fas fa-angle-right"></i> Shop</a>
+            <a class="link" href="#gallery"> <i class="fas fa-angle-right"></i> Gallery</a>
+            <a class="link" href="#team"> <i class="fas fa-angle-right"></i> Team</a>
+            <a class="link" href="#arrivals"> <i class="fas fa-angle-right"></i> Arrivals</a>
+            <a class="link" href="#blogs"> <i class="fas fa-angle-right"></i> Blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> My order </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> My favorite </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> My wishlist </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> Private policy </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> terms of use </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-phone"></i> 9876543210 </p>
+            <p> <i class="fas fa-phone"></i> 9753108642 </p>
+            <p> <i class="fas fa-envelope"></i> girlyy765@gmail.com </p>
+            <p> <i class="fas fa-map"></i> Hyderabad, india - 500001 </p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Newsletter</h3>
+            <p>Subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" id="" class="email">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="credit"> @ created by <span>Balaga Tejomahima</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link      -->
+<script src="js/script.js"></script>
+
+<script>
+    lightGallery(document.querySelector('.gallery .lightbox'));
+</script>
+    
+</body>
+</html>
